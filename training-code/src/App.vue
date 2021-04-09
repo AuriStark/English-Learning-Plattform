@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="grey lighten-4">
     <!-- 
       Purple 
       Purple = #800080
@@ -10,7 +10,8 @@
       B = #623C5E
     -->
     <v-main>
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Todo</router-link> |
+      <router-link to="/home">Home</router-link> |
       <router-link to="/about">About</router-link>
       <router-view></router-view>
     </v-main>

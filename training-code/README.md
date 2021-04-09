@@ -1,4 +1,4 @@
-# platform-code
+# training-code
 
 ## Project setup
 ```
